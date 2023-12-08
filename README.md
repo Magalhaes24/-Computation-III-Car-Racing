@@ -30,7 +30,6 @@ Welcome to our Car Racing Game, a fast-paced, action-packed racing experience. D
 2. **Choose Mode**: Select 'Car Racing' for single-player or 'Local Racing' for multiplayer.
 3. **Navigate and Survive**: Use controls to avoid other cars and collect power-ups.
 4. **Aim for High Score**: Travel as far as you can to set a new kilometer record.
-5. 
 ## UML diagram
 
 [uml-diagram](assets/uml-diagram.png)
