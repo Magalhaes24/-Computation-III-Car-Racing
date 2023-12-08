@@ -30,6 +30,8 @@ class Car(pygame.sprite.Sprite):
         self.invincible = False
         self.double_km_active = False
         self.Shrinking = False
+        self.Slowing = False
+        self.SpeedBoost = False
 
     def moveRight(self, pixels):
         self.rect.x += pixels
