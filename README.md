@@ -11,6 +11,12 @@ Welcome to our Car Racing Game, a fast-paced, action-packed racing experience. D
 - **Exciting Power-Ups**: Gain advantages with power-ups like Invincibility, SpeedBoost, and more.
 - **Kilometer Records**: Keep track of your highest scores.
 - **Engaging Sound Effects**: Immersive audio experience with collision and background sounds.
+### Power Ups
+- **Invincibility**: The yellow power up that makes you invincible for 4 seconds.
+- **Slowing**: The cyan power up that slows the enemy cars that appear in the 4 seconds of activation.
+- **SpeedBoost**: The red power up that makes you faster.
+- **DoubleKilometers**: The white power up that doubles your Kilometers for 4 seconds.
+- **Shrinking**: The green power up that makes you smaller for 4 seconds.
 
 ## Controls
 - **Single-Player Controls**:
