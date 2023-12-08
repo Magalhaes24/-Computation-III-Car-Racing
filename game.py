@@ -276,6 +276,8 @@ def car_racing(callback, kilometer_records):
                 playerCar.invincible = False
                 playerCar.double_km_active = False
                 playerCar.Shrinking = False
+                playerCar.Slowing = False
+                playerCar.SpeedBoost = False
                 power_up_collected = False
                 playerCar.changeImage('assets/img/car.png')
 
