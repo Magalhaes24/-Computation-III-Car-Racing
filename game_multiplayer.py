@@ -417,7 +417,9 @@ def multiplayer_car_racing(callback, kilometer_records):
                 # Reset power-up effects for Player 1
                 playerCar.invincible = False
                 playerCar.double_km_active = False
-                playerCar.Shooting = False  # if 'Shooting' is a power-up effect
+                playerCar.Shrinking = False
+                playerCar.Slowing = False
+                playerCar.SpeedBoost = False
                 power_up_collected = False
                 playerCar.changeImage('assets/img/car.png')  # Reset image if changed by power-up
 
@@ -437,7 +439,9 @@ def multiplayer_car_racing(callback, kilometer_records):
                 # Reset power-up effects for Player 2
                 playerCar2.invincible = False
                 playerCar2.double_km_active = False
-                playerCar2.Shooting = False  # if 'Shooting' is a power-up effect
+                playerCar2.Shrinking = False
+                playerCar2.Slowing = False
+                playerCar2.SpeedBoost = False
                 power_up_collected2 = False
                 playerCar2.changeImage('assets/img/car.png')  # Reset image if changed by power-up
 
