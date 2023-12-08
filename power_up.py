@@ -87,7 +87,7 @@ class Invincibility(PowerUp):
 
 class Slowing(PowerUp):
     def __init__(self, radius):
-        super().__init__(CYAN, radius, 3000)  # Example: 3000 milliseconds for Slowing
+        super().__init__(CYAN, radius, 3000)
 
     def affect_player(self, player):
         player.Slowing = True
@@ -100,7 +100,7 @@ class Slowing(PowerUp):
 
 class SpeedBoost(PowerUp):
     def __init__(self, radius):
-        super().__init__(RED, radius, 5000)  # Example: 5000 milliseconds for SpeedBoost
+        super().__init__(RED, radius, 5000) 
 
     def affect_player(self, player):
         player.SpeedBoost = True
