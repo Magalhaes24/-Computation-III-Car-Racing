@@ -79,7 +79,7 @@ class Invincibility(PowerUp):
         player.invincible = True
         self.start_effect(pygame.time.get_ticks())
         self.player = player  # Keep a reference to the player
-        self.player.changeImage('car_i.png')
+        self.player.changeImage('assets/img/car_i.png')
 
     def affect_traffic(self, traffic):
         pass  # No effect on traffic
