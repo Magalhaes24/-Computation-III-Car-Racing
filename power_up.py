@@ -90,6 +90,7 @@ class Slowing(PowerUp):
         super().__init__(CYAN, radius, 3000)  # Example: 3000 milliseconds for Slowing
 
     def affect_player(self, player):
+        player.Slowing = True
         pass  # No effect on player
 
     def affect_traffic(self, traffic):
@@ -102,6 +103,7 @@ class SpeedBoost(PowerUp):
         super().__init__(RED, radius, 5000)  # Example: 5000 milliseconds for SpeedBoost
 
     def affect_player(self, player):
+        player.SpeedBoost = True
         player.speed *= 1.5  # Increase the player's speed
 
     def affect_traffic(self, traffic):
